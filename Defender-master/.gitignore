@@ -1,0 +1,79 @@
+# ------------------------------
+# 👷 BUILD & GRADLE
+# ------------------------------
+.gradle/
+build/
+**/build/
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# ------------------------------
+# 🪄 GRADLE WRAPPER JAR (оставляем)
+# ------------------------------
+!gradle/wrapper/gradle-wrapper.jar
+
+# ------------------------------
+# ⚙️ LOCAL CONFIG
+# ------------------------------
+local.properties
+*.log
+*.tmp
+
+# ------------------------------
+# 🍏 MAC / WINDOWS / LINUX SYSTEM FILES
+# ------------------------------
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# ------------------------------
+# 🧪 TEST REPORTS & COVERAGE
+# ------------------------------
+test-results/
+androidTest-results/
+coverage/
+*.ec
+
+# ------------------------------
+# 📸 APK, AAB и временные релизы
+# ------------------------------
+*.apk
+*.ap_
+*.aab
+outputs/
+
+# ------------------------------
+# 🐘 KOTLIN SPECIFIC
+# ------------------------------
+*.kotlin_module
+
+# ------------------------------
+# 🔥 FIREBASE
+# ------------------------------
+google-services.json
+firebase-debug.log
+
+# ------------------------------
+# 🧠 INTELLIJ / ANDROID STUDIO SYSTEM
+# ------------------------------
+.idea/*
+!.idea/codeStyles
+!.idea/runConfigurations
+!.idea/inspectionProfiles
+!.idea/misc.xml
+
+# ------------------------------
+# ☕ JAVA SPECIFIC
+# ------------------------------
+*.class
+*.jar
+*.war
+*.ear
+
+# ------------------------------
+# 🧩 VCS
+# ------------------------------
+.recommenders/
